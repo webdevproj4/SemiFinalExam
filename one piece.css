@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .anime-info {
     margin: 30px;
@@ -32,7 +37,35 @@
     transition: 0.3s;
 }
 
+header {
+    background-color: #202020;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+header h1 {
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
 header a {
+    display: inline-block;
     text-decoration: none;
-    color: black;
+    color: bisque;
+    background: linear-gradient(135deg, #444, #222);
+    padding: 12px 35px;
+    margin-top: 10px;
+    border: 2px solid bisque;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+header a:hover {
+    color: rgb(254, 112, 136);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
 }

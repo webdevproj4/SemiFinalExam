@@ -1,0 +1,66 @@
+
+.anime-info {
+    margin: 30px;
+    padding: 25px;
+    background-color: bisque;
+    border-radius: 15px;
+}
+
+.products {
+    margin: 30px;
+    text-align: center;
+}
+
+.product-card {
+    display: inline-block;
+    width: 250px;
+    padding: 15px;
+    margin: 15px;
+    background-color: bisque;
+    border-radius: 15px;
+}
+
+.product-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+header {
+    background-color: #202020;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+header h1 {
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+header a {
+    display: inline-block;
+    text-decoration: none;
+    color: bisque;
+    background: linear-gradient(135deg, #444, #222);
+    padding: 12px 35px;
+    margin-top: 10px;
+    border: 2px solid bisque;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+header a:hover {
+    color: rgb(254, 112, 136);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+}
