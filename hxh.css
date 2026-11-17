@@ -23,7 +23,7 @@
 .product-card img {
     width: 100%;
     height: 250px;
-    object-fit: contain;
+    object-fit: border;
     border-radius: 10px;
 }
 
