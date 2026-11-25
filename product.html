@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | Anime Haven</title>
+    <link rel="stylesheet" href="product.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>ANIME HAVEN</h1>
+
+        <nav>
+            <a href="index.html">X</a>
+        </nav>
+    </header>
+
+
+    <!-- PRODUCT DETAILS -->
+    <main class="product-container">
+
+        <!-- PRODUCT IMAGES -->
+        <section class="product-gallery">
+
+            <img src="favicon_io/android-chrome-192x192.png" alt="Product Image" id="main-image">
+
+            <div class="thumbnail-container" id="thumbnail-container">
+                <!-- JavaScript displays small images here -->
+            </div>
+
+        </section>
+
+
+        <!-- PRODUCT INFORMATION -->
+        <section class="product-information">
+
+            <h2 id="product-name">Product Name</h2>
+
+            <!-- RATINGS -->
+            <div class="product-rating">
+
+                <span id="product-rating">5.0</span>
+
+                <span class="stars">★★★★★</span>
+
+                <span id="product-reviews">0 Ratings</span>
+
+            </div>
+
+
+            <!-- PRICE -->
+            <div class="price-container">
+
+                <h1 id="product-price">₱0</h1>
+
+                <del id="old-price">₱0</del>
+
+                <span id="discount">-0%</span>
+
+            </div>
+
+
+            <!-- SHIPPING -->
+            <div class="product-option">
+
+                <span class="option-label">Shipping</span>
+
+                <div>
+                    <p>🚚 Free Shipping</p>
+                    <small>Estimated delivery within 3-5 days.</small>
+                </div>
+
+            </div>
+
+
+            <!-- GUARANTEE -->
+            <div class="product-option">
+
+                <span class="option-label">Guarantee</span>
+
+                <p>🛡️ Free & Easy Returns</p>
+
+            </div>
+
+
+            <!-- QUANTITY -->
+            <div class="product-option">
+
+                <span class="option-label">Quantity</span>
+
+                <div class="quantity-container">
+
+                    <button id="decrease">−</button>
+
+                    <span id="quantity">1</span>
+
+                    <button id="increase">+</button>
+
+                </div>
+
+            </div>
+
+
+            <!-- PURCHASE BUTTONS -->
+            <div class="purchase-buttons">
+
+                <button id="add-to-cart" class="cart-button">
+                    🛒 Add To Cart
+                </button>
+
+                <button id="buy-now" class="buy-button">
+                    Buy Now
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>

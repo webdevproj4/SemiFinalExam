@@ -33,8 +33,9 @@
 }
 
 .product-card:hover {
-    transform: scale(1.05);
-    transition: 0.3s;
+    transform: translateY(-8px);
+    background-color: #ffd4a5;
+    box-shadow: 0 8px 20px #00000030;
 }
 
 header {
